@@ -11,17 +11,17 @@ public class ModItems {
     public static final DeferredRegister<Item> Items =
             DeferredRegister.create(ForgeRegistries.ITEMS, Satiscraftory.MOD_ID);
 
-    public static final RegistryObject<Item> Limestone = Items.register("limestone",
+    public static final RegistryObject<Item> limestone = Items.register("limestone",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> Caterium = Items.register("caterium",
+    public static final RegistryObject<Item> caterium = Items.register("caterium",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> Sulfur = Items.register("sulfur",
+    public static final RegistryObject<Item> sulfur = Items.register("sulfur",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> Bauxite = Items.register("bauxite",
+    public static final RegistryObject<Item> bauxite = Items.register("bauxite",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> SAM = Items.register("sam",
+    public static final RegistryObject<Item> sam = Items.register("sam",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> Uranium = Items.register("uranium",
+    public static final RegistryObject<Item> uranium = Items.register("uranium",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> caterium_ingot = Items.register("caterium_ingot",
             () -> new Item(new Item.Properties()));
@@ -50,6 +50,8 @@ public class ModItems {
     public static final RegistryObject<Item> cable = Items.register("cable",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> copper_sheet = Items.register("copper_sheet",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> copper_powder = Items.register("copper_powder",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> quartz_crystal = Items.register("quartz_crystal",
             () -> new Item(new Item.Properties()));
@@ -85,7 +87,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> circuit_board = Items.register("circuit_board",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> AI_limiter = Items.register("ai_limiter",
+    public static final RegistryObject<Item> ai_limiter = Items.register("ai_limiter",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> high_speed_connector = Items.register("high-speed_connector",
             () -> new Item(new Item.Properties()));
